@@ -1,0 +1,16 @@
+*{
+    color: rgb(32, 147, 171);
+}
+
+.article {
+    color: blueviolet;
+}
+header{
+    background-color: black 0.5;
+}
+body{
+    background-color: rgb(29, 28, 28);
+}
+.article #iphone{
+    color: white;
+}
