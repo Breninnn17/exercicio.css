@@ -1,16 +1,130 @@
-*{
-    color: rgb(32, 147, 171);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.article {
-    color: blueviolet;
+body > header {
+    background-color: #988888;
+    padding: 16px 0;
 }
-header{
-    background-color: black 0.5;
+
+.articles article{
+    width: 47%;
 }
-body{
-    background-color: rgb(29, 28, 28);
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+header li {
+    display: inline;
 }
-.article #iphone{
+
+header li a{
     color: white;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.articles .articles img {
+    height: 100px;
+}
+
+.articles .articles {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#sports {
+    background-color:rgba(11, 121, 71, 0.1)
+}
+
+#sports .articles article a{
+    background-color: #2f3640;
+}
+
+#economy {
+    background-color: antiquewhite;
+}
+
+#podcast {
+    background-color: orange;
+    color: white;
+}
+#podcast article a {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#tecnologia article a{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#tecnologia {
+    background-color:rgb(113, 47, 113) ;
+    color: rgb(255, 255, 255);
 }
